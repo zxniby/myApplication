@@ -11,16 +11,6 @@ public class Book implements Parcelable {
     private String bName;
     private String bPublisher;
 
-
-    public Book(int id, String name, String publisher){
-        this.bId = id;
-        this.bName = name;
-        this.bPublisher = publisher;
-    }
-
-    public Book(){}
-
-
     public int getbId() {
         return bId;
     }
@@ -45,6 +35,18 @@ public class Book implements Parcelable {
         this.bPublisher = bPublisher;
     }
 
+    public Book(int id, String name, String publisher){
+        this.bId = id;
+        this.bName = name;
+        this.bPublisher = publisher;
+    }
+
+    private Book(Parcel in) {
+        bId = in.readInt();
+        bName = in.readString();
+        bPublisher = in.readString();
+    }
+
     @Override
     public void writeToParcel(Parcel out, int flag){
         out.writeInt(bId);
@@ -59,12 +61,8 @@ public class Book implements Parcelable {
 
     public static final Parcelable.Creator<Book> CREATOR = new Creator<Book>(){
         @Override
-        public Book createFromParcel(Parcel source){
-            Book book = new Book();
-            book.bId = source.readInt();
-            book.bName = source.readString();
-            book.bPublisher = source.readString();
-            return book;
+        public Book createFromParcel(Parcel in){
+            return new Book(in);
         }
 
         @Override

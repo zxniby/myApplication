@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom = "http=://schemas.android.com/apk/res/com.example.xiangnanzhang.myapplication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.xiangnanzhang.myapplication.MyView
+        custom:titleText="good"
+        custom:titleTextColor="@android:color/black"
+        custom:titleSize="36sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

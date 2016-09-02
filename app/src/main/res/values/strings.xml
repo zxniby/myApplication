@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">MyApplication</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="celtes">This is Boston Celtes</string>
+    <string name="bulls">This is Chicago bulls</string>
+    <string name="bucks">This is Milwaukee bucks</string>
+    <string name="spurs">This is San Antonio spurs</string>
+    <string name="cavaliers">This is Cleveland cavaliers</string>
+    <string name="MJ">迈克尔·乔丹（Michael Jordan），1963年2月17日生于纽约布鲁克林，美国著名篮球运动员，司职得分后卫，历史上最伟大的篮球运动员。
+1984年的NBA选秀大会，乔丹在首轮第3顺位被芝加哥公牛队选中。
+1986-87赛季，乔丹场均得到37.1分，首次获得分王称号。
+1990-91赛季，乔丹连夺常规赛MVP和总决赛MVP称号，率领芝加哥公牛首次夺得NBA总冠军。
+1997-98赛季，乔丹获得个人职业生涯第10个得分王，并率领公牛队第六次夺得总冠军。
+2009年9月11日，乔丹正式入选NBA名人堂。</string>
+    <string name="title_activity_dial">dialActivity</string>
+    <string name="title_activity_http_request">HttpRequestActivity</string>
+    <string name="title_activity_rect">RectActivity</string>
 </resources>

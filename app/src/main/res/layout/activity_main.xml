@@ -10,4 +10,56 @@
         android:layout_height="wrap_content"
         android:text="Parcel"/>
 
+    <Button
+        android:id="@+id/btn_webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Webview"/>
+
+    <Button
+        android:id="@+id/btn_medals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="medals"/>
+
+    <Button
+        android:id="@+id/btn_scrolllistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image+ListView"/>
+
+    <Button
+        android:id="@+id/btn_onMeasure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="onMeasure"/>
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog"
+        android:background="@drawable/layerlist_sample"/>
+
+    <Button
+        android:id="@+id/btn_dialing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialing"
+        android:background="@drawable/btn_selector"
+        android:textColor="@drawable/btn_text_selector"/>
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HTTP GET"
+        android:background="@drawable/rect_sample"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/ring_sample"/>
+
+
 </LinearLayout>
